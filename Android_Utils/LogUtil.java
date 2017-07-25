@@ -1,7 +1,16 @@
-package com.example.yan.reviewproject710.utils;
+package com.rya.weishang.utils;
 import android.util.Log;
 
-public class LogUtils {
+/**
+ * Created by Yan on 2017/5/14.
+ * <p>
+ * Reach me : http://ryanyans.github.io
+ * Email : ryanyans32@gmail.com
+ * <p>
+ * 日志打印工具类
+ */
+
+public class LogUtil {
 	/** 日志输出级别NONE */
 	public static final int LEVEL_NONE = 0;
 	/** 日志输出级别E */
@@ -16,9 +25,9 @@ public class LogUtils {
 	public static final int LEVEL_VERBOSE = 5;
 
 	/** 日志输出时的TAG */
-	private static String mTag = "LogUtils";
+	private static String mTag = "LogUtil";
 	/** 是否允许输出log */
-	private static int mDebuggable = LEVEL_VERBOSE;
+	private static int mDebuggable = LEVEL_NONE;
 	private int[] ints;
 
 	/** 以级别为 d 的形式输出LOG */

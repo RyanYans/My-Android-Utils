@@ -1,4 +1,4 @@
-package com.example.yan.reviewproject710.utils;
+package com.rya.weishang.utils;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -6,15 +6,20 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Process;
+import android.support.annotation.RequiresApi;
 import android.view.View;
 
-import com.example.yan.reviewproject710.global.GlobalApplication;
+import com.rya.weishang.global.GlobalApplication;
 
 import java.util.Random;
 
 /**
- * Created by Rya32 on 广东石油化工学院.
- * Version 1.0
+ * Created by Yan on 2017/5/10.
+ * <p>
+ * Reach me : http://ryanyans.github.io
+ * Email : ryanyans32@gmail.com
+ * <p>
+ * 常用UI辅助类
  */
 
 public class UiUtil {
